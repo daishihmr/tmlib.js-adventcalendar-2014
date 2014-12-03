@@ -5,11 +5,11 @@ tm.main(function() {
     app.replaceScene(MainScene());
     app.run();
 
-    app.keyboard.element.addEventListener("keydown", function(e) {
-        if (37 <= e.keyCode && e.keyCode <= 40 || e.keyCode === 32) {
-            e.preventDefault();
-        }
-    });
+    // app.keyboard.element.addEventListener("keydown", function(e) {
+    //     if (37 <= e.keyCode && e.keyCode <= 40 || e.keyCode === 32) {
+    //         e.preventDefault();
+    //     }
+    // });
 });
 
 tm.define("MainScene", {
