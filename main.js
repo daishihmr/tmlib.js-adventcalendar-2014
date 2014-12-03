@@ -1,7 +1,7 @@
 tm.main(function() {
 
     var app = tm.display.CanvasApp("#app");
-    app.resize(500, 500).fitWindow();
+    app.resize(500, 500);
     app.replaceScene(MainScene());
     app.run();
 
